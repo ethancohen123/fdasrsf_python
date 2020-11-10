@@ -298,7 +298,7 @@ class fdacurve:
             samples[i] = cf.q_to_curve(q2)
 
         self.samples = samples
-        return
+        return samples
 
 
     def plot(self):
